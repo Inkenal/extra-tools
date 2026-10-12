@@ -1,0 +1,11 @@
+[package]
+name = "regtrans_parser"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "regtrans_parser"
+path = "src/main.rs"
+
+[profile.release]
+panic = "unwind"
